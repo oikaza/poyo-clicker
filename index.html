@@ -14,18 +14,20 @@
     <img id="kirbyImage" src="images/kirby_pixel.jpg" alt="ポヨキャラ" />
   </div>
 
-  <!-- ボタンと+1アニメーション -->
+  <!-- ポヨ数＆ボタン -->
   <div id="plusOneContainer">
+    <p id="counterText">ポヨ数：<span id="poyoCount">0</span></p>
     <button id="poyoButton">ポヨッ！</button>
   </div>
 
-  <!-- ✅ ポヨ数はボタンの下に1つだけ！ -->
-  <div id="counterWrapper">
-    <p id="counterText">ポヨ数：<span id="poyoCount">0</span></p>
+  <!-- 🔊 BGM ON/OFFボタン -->
+  <div style="margin-top: 20px;">
+    <button id="bgmToggle">🎵 BGM ON/OFF</button>
   </div>
 
-  <!-- 音声 -->
+  <!-- 効果音 -->
   <audio id="poyoSound" src="sounds/Pickup7.wav" preload="auto"></audio>
+  <audio id="bgm" src="sounds/bgm.mp3" preload="auto" loop></audio>
 
   <!-- スクリプト -->
   <script src="script.js"></script>
