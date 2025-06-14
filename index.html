@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Poyo Clicker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Poyo Clicker 🎈</h1>
+
+  <!-- カービィ画像 -->
+  <div id="imageWrapper">
+    <img id="kirbyImage" src="images/kirby_pixel.jpg" alt="ポヨキャラ" />
+  </div>
+
+  <!-- ボタンと+1アニメーション -->
+  <div id="plusOneContainer">
+    <button id="poyoButton">ポヨッ！</button>
+  </div>
+
+  <!-- ✅ ポヨ数はボタンの下に1つだけ！ -->
+  <div id="counterWrapper">
+    <p id="counterText">ポヨ数：<span id="poyoCount">0</span></p>
+  </div>
+
+  <!-- 音声 -->
+  <audio id="poyoSound" src="sounds/Pickup7.wav" preload="auto"></audio>
+
+  <!-- スクリプト -->
+  <script src="script.js"></script>
+</body>
+</html>
